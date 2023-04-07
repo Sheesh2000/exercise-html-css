@@ -1,0 +1,340 @@
+@media screen and (max-width: 600px) {
+
+    body {
+        font-family: 'Hanken Grotesk', sans-serif; font-size: 14px;
+        text-align: center;
+    }
+    .result {
+        margin: auto;
+        margin-top: auto;
+        font-weight: 700;
+        text-align: center;
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        color: white;
+        border-radius: 15px;
+        border-style: none;
+        border-width: 5px;
+        padding: 10px;
+        position: relative;
+        bottom: 20px;
+display: flex;
+flex-direction: column;
+text-align: center;
+    }
+    
+    .out_of {
+        margin: auto;
+        text-align: center;
+        border-radius: 100%;
+        width: 100px;
+        height: 95px;
+        background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+display: flex;
+flex-direction: column;
+text-align: center;
+    }
+    h1 {
+        position: relative;
+        top: 3px;
+        left: 0px;
+        font-weight: 800;
+    }
+    #hid {
+        display: none;
+     }
+     #con {
+         text-decoration: none;
+         color: white;
+     }
+     button {
+         color: white;
+         position: relative;
+         border-radius: 100px;
+         border-style: none;
+         width: 160px;
+         height: 28px;
+         left: 0px;
+         top: 0px;
+         background-color:hsl(224, 30%, 27%);
+     }
+     button:hover {
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    }
+    table {
+        text-align: center;
+        position: relative;
+        font-size: 11px;
+        border-spacing: 10px;
+        background-color: white;
+        right: 30px;
+        margin: auto;
+    }
+    .num {
+        position: relative;
+        font-weight: 700;
+        font-size: 12px;
+        bottom: 3px;
+        left: 60px;
+    }
+    #summa {
+        position: relative;
+        font-size: larger;
+        text-align: center;
+        font-weight: 800;
+    }
+    #rea {
+        font-size: 11px;
+        font-weight: 500;
+        color:hsl(0, 100%, 67%);
+        position: relative;
+    }
+    #mem {
+        font-size: 11px;
+        font-weight: 500;
+        color: hsl(39, 100%, 56%);
+        position: relative;
+        
+    }
+    #ver {
+        font-size: 11px;
+        font-weight: 500;
+        color: hsl(166, 100%, 37%);
+        
+        
+    }
+    #vis {
+        font-size: 11px;
+        font-weight: 500;
+        color: hsl(234, 85%, 45%);
+        
+        
+    }
+    
+    
+    #of {
+        font-weight: 500;
+        position: relative;
+        bottom: 23px;
+        left: 0px;
+    }
+    
+    #imgvis {
+        width: 12px;
+        height: 12px;
+        position: relative;
+        
+    }
+    #imgver {
+        width: 12px;
+        height: 12px;
+        position: relative;
+    }
+    #imgmem {
+        width: 14px;
+        height: 12px;
+        position: relative;
+    }
+    #imgrea {
+        width: 12px;
+        height: 12px;
+        position: relative;
+        
+    }
+    
+    p {
+        opacity: 0.7;
+    }
+    span {
+        opacity: 0.5;
+    }
+    .attribution {
+        display: none;
+    }
+    
+}
+@media screen and (min-width: 601px) {
+
+#divbod {
+    margin: auto;
+    border-width: 300px;
+    border-radius: 8px;
+    width: 410px;
+    height: 290px;
+    background-color: white;
+}
+table, div {
+    font-family: 'Hanken Grotesk', sans-serif; font-size: 14px;
+}
+h1 {
+    position: relative;
+    top: 23px;
+    left: 0px;
+    font-weight: 800;
+}
+
+th {
+    font-size: 12px;
+    position: relative;
+    bottom: 15px;
+    right: 840px;
+    text-align: left;
+    
+}
+#mar {
+    height: 50px;
+}
+.result {
+    font-weight: 700;
+    text-align: center;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+    border-radius: 15px;
+    height: 270px;
+    width: 190px;
+    border-style: none;
+    border-width: 5px;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 0px;
+}
+.out_of {
+    margin: auto;
+    text-align: center;
+    border-radius: 100%;
+    width: 100px;
+    height: 95px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+table {
+    position: relative;
+    font-size: 11px;
+    border-spacing: 10px;
+    background-color: white;
+    left: 210px;
+    bottom: 290px;
+    width: 220px;
+    height: 285px;
+}
+
+#hid {
+   display: none;
+}
+#con {
+    text-decoration: none;
+    color: white;
+}
+button {
+    color: white;
+    position: relative;
+    border-radius: 100px;
+    border-style: none;
+    width: 160px;
+    height: 28px;
+    left: 240px;
+    bottom: 335px;
+    background-color:hsl(224, 30%, 27%);
+}
+button:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.attribution {
+    display: none;
+}
+#summa {
+    position: relative;
+    font-size: larger;
+    text-align: center;
+    font-weight: 800;
+    right: 20px;
+    bottom: 15px;
+}
+
+.num {
+    position: relative;
+    font-weight: 700;
+    font-size: 10px;
+    height: 35px;
+    bottom: 43px;
+    left: 0px;
+}
+
+#rea {
+    font-size: 11px;
+    font-weight: 500;
+    color:hsl(0, 100%, 67%);
+    position: relative;
+    bottom: 43px;
+    left: 27px
+}
+#mem {
+    font-size: 11px;
+    font-weight: 500;
+    color: hsl(39, 100%, 56%);
+    position: relative;
+    bottom: 47px;
+    left: 25px;
+}
+#ver {
+    font-size: 11px;
+    font-weight: 500;
+    color: hsl(166, 100%, 37%);
+    position: relative;
+    bottom: 43px;
+    left: 26px
+}
+#vis {
+    font-size: 11px;
+    font-weight: 500;
+    color: hsl(234, 85%, 45%);
+    position: relative;
+    bottom: 43px;
+    left: 26px
+}
+
+
+#of {
+    font-weight: 500;
+    position: relative;
+    top: 4px;
+    left: 0px;
+}
+
+#imgvis {
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+#imgver {
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+#imgmem {
+    width: 14px;
+    height: 12px;
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+#imgrea {
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+
+p {
+    opacity: 0.7;
+}
+span {
+    opacity: 0.5;
+}
+
+}
+
